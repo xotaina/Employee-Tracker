@@ -1,24 +1,22 @@
 # Employee Tracker
 
 ## Description
-The Employee Tracker is a CLI program that allows users to view, add, and manage employee departments and roles within a database utilizing SQL commands. The system is designed to streamline employee management in an intuitive and user-friendly way.
+The Employee Tracker is a CLI program that enables users to view, manage, and add employee details, departments, and roles within a database using SQL commands. It provides a clear and convenient interface for managing employee data and is particularly useful for HR and management teams.
 
 ## Author
 Taina Barreau
 
 ## Installation Guide
-1. Clone the repository from this link: [https://github.com/xotaina/employee-tracker](https://github.com/xotaina/employee-tracker)
-2. Open your terminal.
-3. Navigate to the cloned repository folder.
-4. Install the `inquirer` package to enable prompts by running `npm i inquirer@8.2.4`
-5. Install the `mysql2` module by typing `npm install mysql2`
-6. After installation, you're all set to run the program by executing `node index.js`
+1. Clone the repository from this link: [https://github.com/xotaina/employee-tracker-m12](https://github.com/xotaina/employee-tracker-m12)
+2. Open your terminal and navigate to the cloned repository folder.
+3. Run `npm install` to install the necessary dependencies, namely `npm i inquirer@8.2.4` for prompts and `mysql2` for SQL commands.
+4. Run the program with `node index.js`.
 
-**Note:** When adding an employee, department or role, you will be prompted to type in their respective IDs. The user must input the ID correctly based on how many entries already exist in the table. For example, if there are six entries in the table, the user must type in '7' for the ID prompt. This will append the new values at the end of the table. 
+## Usage
+Upon launching the program, you will be greeted with a message "Welcome to the Employee Tracker" and prompted to choose from a list of tasks such as "View all departments", "View all roles", "View all employees", "Add a department", "Add a role", "Add an employee", or "Update an employee role".
 
-## Collaborators
-Walsh Vaz
+Depending on the task you select, the program will guide you through the necessary steps. For example, if you choose to add a department, you will be prompted to enter the department name and ID, which will then be added to the department table.
 
 
-## Github Repository
-Please find the source code on Github at [https://github.com/xotaina/employee-tracker](https://github.com/xotaina/employee-tracker). We value your contributions and feedback.
+## GitHub Repository
+You can find the source code on GitHub at [https://github.com/xotaina/employee-tracker-m12](https://github.com/xotaina/employee-tracker-m12).
