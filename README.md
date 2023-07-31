@@ -19,6 +19,8 @@ Taina Barreau
 ## Collaborators
 Walsh Vaz
 
+## Demo Video
+https://drive.google.com/file/d/1q_n30DICQV39_dgEcx393Fvbv4R6stcV/view
 
 ## Github Repository
 Please find the source code on Github at [https://github.com/xotaina/employee-tracker](https://github.com/xotaina/employee-tracker). We value your contributions and feedback.
